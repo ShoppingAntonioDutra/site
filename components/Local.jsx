@@ -4,17 +4,17 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Local() {
     return (
-        <div className='flex flex-col md:w-auto h-full items-center pt-20 bg-white -z-10 text-center'>
+        <div className='flex flex-col md:w-auto h-full items-center md:pt-20 bg-white -z-10 text-center'>
             <div className='flex flex-col justify-center items-center'>
                 <h1 className='text-3xl md:text-6xl  p-10 text-segundo-tema-site drop-shadow-dark1'>
                     Localização
                 </h1>
-                <h2 className='text-2xl'>
+                <h2 className='md:text-2xl'>
                     Descubra como chegar no Antônio Dutra Shopping
                 </h2>
             </div>
             <div className='flex justify-center items-center px-5'>
-                <h2 className='text-xl flex justify-center items-center font-sans gap-5 p-5'>
+                <h2 className='md:text-xl flex justify-center items-center font-sans gap-5 p-5'>
                 <FontAwesomeIcon icon={faLocationDot} className=' text-segundo-tema-site w-5 drop-shadow-dark1' />
                      Av. Dr. Olavo Gomes Pinto, 160, São Lourenço - MG, 37470-000
                 </h2>

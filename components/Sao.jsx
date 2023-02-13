@@ -4,11 +4,11 @@ import Parque from "../public/parque.webp";
 export default function Sao() {
     return (
         <div className='flex flex-col items-center justify-center pt-10 pb-10 bg-slate-300'>
-            <h1 className='text-6xl pb-10 text-segundo-tema-site drop-shadow-dark1'>
+            <h1 className='text-3xl md:text-6xl pb-10 text-segundo-tema-site drop-shadow-dark1'>
                 São Lourenço
             </h1>
             <div className='md:px-20'>
-                <div>
+                <div className='p-5 md:p-0'>
                     <p className='text-justify'>
                         São Lourenço é um município brasileiro do estado de Minas Gerais, uma das mais conhecidas estâncias hidrominerais do Brasil. Faz parte do Circuito das Águas de Minas Gerais, na Serra da Mantiqueira. Sua população em julho de 2020 foi estimada em 46.202 habitantes.<br /><br />
                         <spam className='text-segundo-tema-site drop-shadow-dark1 text-xl'>Clima</spam> <br /><br />
