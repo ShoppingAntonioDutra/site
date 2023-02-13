@@ -3,6 +3,7 @@ import { Inter } from '@next/font/google'
 import Inicio from 'components/Inicio'
 import Nav from 'components/Nav'
 import Conteudo from 'components/Conteudo'
+import Local from 'components/Local'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,6 +21,7 @@ export default function Home() {
       <Nav />
       <Inicio />
       <Conteudo />
+      <Local/>
 
     </div>
   )

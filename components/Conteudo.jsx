@@ -2,9 +2,9 @@ import CarrosselShopp from "components/CarrosselShopp"
 
 export default function Conteudo() {
     return (
-        <div className='grid grid-cols-2 h-[650px] bg-branco'>
+        <div className='grid grid-cols-2 h-[650px]'>
             <div className='flex flex-col p-20'>
-                <h1 className='text-5xl font-bold text-terceiro'>
+                <h1 className='text-5xl font-bold text-segundo-tema-site drop-shadow-dark1'>
                     O Shopping
                 </h1>
                 <h2 className='pb-5 font-bold'>

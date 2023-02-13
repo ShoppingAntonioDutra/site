@@ -9,7 +9,7 @@ export default function Nav() {
 
 
     return (
-        <div className=" flex justify-between items-center shadow-meu">
+        <div className=" flex justify-between items-center">
 
             <nav className="z-20 w-[320px] ">
                 <section className="MOBILE-MENU md:hidden ">
@@ -18,7 +18,7 @@ export default function Nav() {
                         onClick={() => setIsNavOpen((prev) => !prev
                         )} // toggle isNavOpen state on click
                     >
-                        <Image src={logo} alt='logo da empresa' className='w-36 ' />
+                        <Image src={logo} alt='logo da empresa' className='w-36' />
                         <div className=' space-y-2 mt-2'>
                             <span className="block h-0.5 w-8  bg-segundo-tema-site "></span>
                             <span className="block h-0.5 w-8 bg-segundo-tema-site"></span>
@@ -75,45 +75,51 @@ export default function Nav() {
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden md:flex md:justify-between w-screen pb-5 px-20 pt-5 md:items-center text-tema-site items-center " >
-                    
-                    <li className="w-28 flex justify-center items-center text-center">
-                        <a href="#sobre" className="hover:transition"
-                        >
-                            <p>
-                                O Shopping
-                            </p>
-                        </a>
-                    </li>
-                    <li className="flex justify-center items-center text-center">
-                        <a href="#produtos" className="hover:transition "
-                        >
-                            <p>
-                                Lojas
-                            </p>
-                        </a>
-                    </li>
-                    <li className="w-28 flex justify-center items-center text-center">
-                        <a href="#baependi" className="hover:transition ">
-                            <p>Serviços</p>
-                        </a>
-                    </li>
-                    <Image src={logo} alt='logo da empresa' className='w-48' />
-                    <li className="w-28 flex justify-center items-center text-center">
-                        <a href="#baependi" className="hover:transition ">
-                            <p>Como Chegar</p>
-                        </a>
-                    </li>
-                    <li className="w-28 flex justify-center items-center text-center">
-                        <a href="#baependi" className="hover:transition h">
-                            <p>Campanhas</p>
-                        </a>
-                    </li>
-                    <li className="w-28 flex justify-center items-center text-center">
-                        <a href="#baependi" className="hover:transition">
-                            <p>Baependi</p>
-                        </a>
-                    </li>
+                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed bg-zinc-300 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center">
+                    <div className='flex justify-around items-center'>
+                        <li className="w-28 flex justify-center items-center text-center">
+                            <a href="#sobre" className="hover:transition hover:text-terceiro"
+                            >
+                                <p>
+                                    O Shopping
+                                </p>
+                            </a>
+                        </li>
+
+                        <li className="flex justify-center items-center text-center">
+                            <a href="#produtos" className="hover:transition hover:text-terceiro "
+                            >
+                                <p>
+                                    Lojas
+                                </p>
+                            </a>
+                        </li>
+                        <li className="w-28 flex justify-center items-center text-center">
+                            <a href="#baependi" className="hover:transition hover:text-terceiro">
+                                <p>Serviços</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                        <Image src={logo} alt='logo da empresa' className='w-48' />
+                    </div>
+                    <div className='flex justify-around items-center'>
+                        <li className="w-28 flex justify-center items-center text-center">
+                            <a href="#baependi" className="hover:transition hover:text-terceiro">
+                                <p>Como Chegar</p>
+                            </a>
+                        </li>
+                        <li className="w-28 flex justify-center items-center text-center">
+                            <a href="#baependi" className="hover:transition hover:text-terceiro">
+                                <p>Campanhas</p>
+                            </a>
+                        </li>
+                        <li className="w-28 flex justify-center items-center text-center">
+                            <a href="#baependi" className="hover:transition hover:text-terceiro">
+                                <p>Baependi</p>
+                            </a>
+                        </li>
+                    </div>
                 </ul>
             </nav>
             <style>{`
