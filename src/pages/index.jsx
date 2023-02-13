@@ -4,6 +4,9 @@ import Inicio from 'components/Inicio'
 import Nav from 'components/Nav'
 import Conteudo from 'components/Conteudo'
 import Local from 'components/Local'
+import Footer from 'components/Footer'
+import Sao from 'components/Sao'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,7 +24,9 @@ export default function Home() {
       <Nav />
       <Inicio />
       <Conteudo />
-      <Local/>
+      <Local />
+      <Sao/>
+      <Footer />
 
     </div>
   )

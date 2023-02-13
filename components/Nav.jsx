@@ -9,10 +9,10 @@ export default function Nav() {
 
 
     return (
-        <div className=" flex justify-between items-center">
+        <div className=" flex justify-between items-center ">
 
-            <nav className="z-20 w-[320px] ">
-                <section className="MOBILE-MENU md:hidden ">
+            <nav className="z-20 w-screen">
+                <section className="MOBILE-MENU md:hidden">
                     <div
                         className="HAMBURGER-ICON w-screen justify-between p-5 flex items-center"
                         onClick={() => setIsNavOpen((prev) => !prev
@@ -75,12 +75,12 @@ export default function Nav() {
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed bg-zinc-300 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center">
+                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed bg-zinc-300 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
                     <div className='flex justify-around items-center'>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#sobre" className="hover:transition hover:text-terceiro"
                             >
-                                <p>
+                                <p className='-tracking-wider'>
                                     O Shopping
                                 </p>
                             </a>
@@ -89,34 +89,36 @@ export default function Nav() {
                         <li className="flex justify-center items-center text-center">
                             <a href="#produtos" className="hover:transition hover:text-terceiro "
                             >
-                                <p>
+                                <p className='-tracking-wider'>
                                     Lojas
                                 </p>
                             </a>
                         </li>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p>Serviços</p>
+                                <p className='-tracking-wider'>Serviços</p>
                             </a>
                         </li>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <Image src={logo} alt='logo da empresa' className='w-48' />
+                        <a href="/#inicio">
+                            <Image src={logo} alt='logo da empresa' className='w-44' />
+                        </a>
                     </div>
                     <div className='flex justify-around items-center'>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p>Como Chegar</p>
+                                <p className='-tracking-wider'>Como Chegar</p>
                             </a>
                         </li>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p>Campanhas</p>
+                                <p className='-tracking-wider'>Campanhas</p>
                             </a>
                         </li>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p>Baependi</p>
+                                <p className='-tracking-wider'>São Lourenço</p>
                             </a>
                         </li>
                     </div>
