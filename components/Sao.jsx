@@ -3,7 +3,7 @@ import Parque from "../public/parque.webp";
 
 export default function Sao() {
     return (
-        <div className='flex flex-col items-center justify-center pt-10 pb-10 bg-slate-300'>
+        <div className='flex flex-col items-center justify-center pt-10 pb-10 bg-zinc-300'>
             <h1 className='text-3xl md:text-6xl pb-10 text-segundo-tema-site drop-shadow-dark1'>
                 São Lourenço
             </h1>
