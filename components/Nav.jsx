@@ -20,9 +20,9 @@ export default function Nav() {
                     >
                         <Image src={logo} alt='logo da empresa' className='w-36' />
                         <div className=' space-y-2 mt-2'>
-                            <span className="block h-0.5 w-8  bg-segundo-tema-site "></span>
-                            <span className="block h-0.5 w-8 bg-segundo-tema-site"></span>
-                            <span className="block h-0.5 w-8 bg-segundo-tema-site"></span>
+                            <span className="block h-0.5 w-8  bg-tema-site "></span>
+                            <span className="block h-0.5 w-8 bg-tema-site "></span>
+                            <span className="block h-0.5 w-8 bg-tema-site "></span>
                         </div>
                     </div>
 
@@ -80,7 +80,7 @@ export default function Nav() {
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#sobre" className="hover:transition hover:text-terceiro"
                             >
-                                <p className='-tracking-wider'>
+                                <p className='tracking-wide text-lg'>
                                     O Shopping
                                 </p>
                             </a>
@@ -89,14 +89,16 @@ export default function Nav() {
                         <li className="flex justify-center items-center text-center">
                             <a href="#produtos" className="hover:transition hover:text-terceiro "
                             >
-                                <p className='-tracking-wider'>
+                                <p className='tracking-wide text-lg'>
                                     Lojas
                                 </p>
                             </a>
                         </li>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p className='-tracking-wider'>Serviços</p>
+                                <p className='tracking-wide text-lg'>
+                                    Serviços
+                                </p>
                             </a>
                         </li>
                     </div>
@@ -108,17 +110,23 @@ export default function Nav() {
                     <div className='flex justify-around items-center'>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p className='-tracking-wider'>Como Chegar</p>
+                                <p className='tracking-wide text-lg w-96'>
+                                    Como Chegar
+                                </p>
                             </a>
                         </li>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p className='-tracking-wider'>Campanhas</p>
+                                <p className='tracking-wide text-lg'>
+                                    Campanhas
+                                    </p>
                             </a>
                         </li>
                         <li className="w-28 flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p className='-tracking-wider'>São Lourenço</p>
+                                <p className='tracking-wide text-lg w-96'>
+                                    São Lourenço
+                                </p>
                             </a>
                         </li>
                     </div>

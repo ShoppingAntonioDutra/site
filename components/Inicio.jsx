@@ -15,14 +15,14 @@ export default function Inicio() {
                     <h2 className='uppercase md:text-4xl font-minhaFonte text-center md:text-start'>
                         Antônio Dutra Shopping
                     </h2>
-                    <p className='py-7 text-tema-site uppercase tracking-wider text-center '>
+                    <p className='py-7 text-tema-site uppercase tracking-wider text-center text-xl'>
                         Onde seu dinheiro vale mais!<br /> Todos os produtos em um só lugar.
                     </p>
-                    <p className='font-light pb-7 text-justify'>
+                    <p className='font-light text-xl pb-7 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore, quas accusamus eos tempore atque maiores omnis ullam. Illo tempora iure numquam qui aliquid alias suscipit earum non impedit ratione.
                     </p>
                     <a href="/??">
-                    <button className=' px-5 py-2 bg-segundo-tema-site  text-tema-site tracking-widest cursor-pointer hover:bg-yellow-300 hover:transition mb-20'>
+                    <button className=' px-5 py-2 bg-segundo-tema-site  text-tema-site tracking-widest cursor-pointer hover:bg-yellow-300 text-xl hover:transition mb-20'>
                         Conheça mais
                     </button>
                     </a>
