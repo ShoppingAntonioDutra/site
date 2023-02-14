@@ -4,7 +4,7 @@ import Carrossel from "components/Carrossel"
 export default function Inicio() {
     return (
         <div id='inicio' className="grid md:grid-cols-2 h-full md:h-[650px] md:mt-[115px] ">
-            <div className='bg-white'>
+            <div>
                 <Carrossel />
             </div>
             <div className='flex flex-col justify-center items-center md:h-[650px]'>
