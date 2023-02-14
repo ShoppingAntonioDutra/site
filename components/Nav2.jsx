@@ -17,7 +17,9 @@ export default function Nav() {
                         className="HAMBURGER-ICON w-screen justify-between p-5 flex items-center"
 
                     >
+                        <Link href='/'>
                         <Image src={logo} alt='logo da empresa' className='w-36' />
+                        </Link>
                         <div className='space-y-2 mt-2'
                             onClick={() => setIsNavOpen((prev) => !prev
                             )} // toggle isNavOpen state on click
@@ -58,16 +60,16 @@ export default function Nav() {
                                 <Link href="/servicos" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Serviços</Link>
                             </li>
                             <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
-                                <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Campanhas</Link>
+                                <Link href="/campanha" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Campanhas</Link>
                             </li>
                             <div className='flex justify-center items-center pt-5 gap-10'>
-                                <Link href='https://www.instagram.com/marcelogamesmg/' target='blank' className='flex items-center justify-center bg-second-tema-site
-            h-10 w-10 p-1  '>
-                                    <FontAwesomeIcon icon={faInstagram} />
+                                <Link href='https://www.instagram.com/marcelogamesmg/' target='blank' className='flex items-center justify-center bg-second-tema-sites
+            h-10 w-10 p-1 '>
+                                    <FontAwesomeIcon icon={faInstagram} className=' text-tema-site h-10' />
                                 </Link>
                                 <Link href='https://www.facebook.com/marcelogamesmg' target='blank' className='flex items-center justify-center bg-second-tema-site
             h-10 w-10 p-1 '>
-                                    <FontAwesomeIcon icon={faFacebook} />
+                                    <FontAwesomeIcon icon={faFacebook} className=' text-tema-site h-10' />
                                 </Link>
                             </div>
                         </ul>
@@ -78,7 +80,7 @@ export default function Nav() {
                 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
                     <div className='flex justify-around -mr-20 items-center '>
                         <li className="flex justify-center items-center text-center">
-                            <a href="/" className="hover:transition hover:text-terceiro"
+                            <a href="/" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1"
                             >
                                 <p className='tracking-wide text-lg'>
                                     Início
@@ -87,7 +89,7 @@ export default function Nav() {
                         </li>
 
                         <li className="flex justify-center items-center text-center">
-                            <a href="/lojas" className="hover:transition hover:text-terceiro "
+                            <a href="/lojas" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1"
                             >
                                 <p className='tracking-wide text-lg'>
                                     Lojas
@@ -104,14 +106,14 @@ export default function Nav() {
                     <div className='flex justify-around items-center gap-5 -ml-20'>
 
                         <li className="flex justify-center items-center text-center">
-                            <a href="/servicos" className="hover:transition hover:text-terceiro">
+                            <a href="/servicos" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 ">
                                 <p className='tracking-wide text-lg'>
                                     Serviços
                                 </p>
                             </a>
                         </li>
                         <li className="flex justify-center items-center text-center">
-                            <a href="/campanhas" className="hover:transition hover:text-terceiro">
+                            <a href="/campanha" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 ">
                                 <p className='tracking-wide text-lg'>
                                     Campanhas
                                 </p>
