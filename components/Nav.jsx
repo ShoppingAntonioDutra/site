@@ -83,8 +83,8 @@ export default function Nav() {
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed 
-                bg-opacity-80 bg-zinc-300 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
+                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed md:bg-zinc-300
+                bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
                     <div className='flex justify-around -mr-20 items-center '>
                         <li className="flex justify-center items-center text-center">
                             <a href="#shopp" className="hover:transition hover:text-terceiro"
