@@ -9,7 +9,7 @@ export default function Nav() {
 
 
     return (
-        <div className=" flex justify-between items-center ">
+        <div className=" flex justify-between items-center bg-zinc-300">
 
             <nav className="z-20 w-screen">
                 <section className="MOBILE-MENU md:hidden">
@@ -83,8 +83,9 @@ export default function Nav() {
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed bg-zinc-300 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
-                    <div className='flex justify-around -mr-20 items-center'>
+                <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed 
+                bg-opacity-80 bg-zinc-300 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
+                    <div className='flex justify-around -mr-20 items-center '>
                         <li className="flex justify-center items-center text-center">
                             <a href="#shopp" className="hover:transition hover:text-terceiro"
                             >

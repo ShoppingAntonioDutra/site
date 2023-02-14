@@ -4,9 +4,9 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Local() {
     return (
-        <div id='comochegar' className='flex flex-col md:w-auto h-full items-center md:pt-20 bg-white -z-10 text-center'>
+        <div id='comochegar' className='flex flex-col md:w-auto h-full items-center md:pt-20 bg-zinc-300 -z-10 text-center'>
             <div className='flex flex-col justify-center items-center'>
-                <h1 className='text-3xl md:text-6xl  p-10 text-segundo-tema-site drop-shadow-dark1'>
+                <h1 className='text-3xl md:text-6xl p-10 text-segundo-tema-site drop-shadow-dark1'>
                     Localização
                 </h1>
                 <h2 className='md:text-2xl'>
