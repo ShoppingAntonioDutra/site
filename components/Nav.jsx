@@ -54,10 +54,10 @@ export default function Nav() {
                                 <Link href="#shopp" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">O Shopping</Link>
                             </li>
                             <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
-                                <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Lojas</Link>
+                                <Link href="/lojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Lojas</Link>
                             </li>
                             <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
-                                <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Serviços</Link>
+                                <Link href="/servicos" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Serviços</Link>
                             </li>
                             <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
                                 <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Campanhas</Link>
@@ -87,7 +87,7 @@ export default function Nav() {
                 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
                     <div className='flex justify-around -mr-20 items-center '>
                         <li className="flex justify-center items-center text-center">
-                            <a href="#shopp" className="hover:transition hover:text-terceiro"
+                            <a href="#shopp" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 "
                             >
                                 <p className='tracking-wide text-lg'>
                                     O Shopping
@@ -96,7 +96,7 @@ export default function Nav() {
                         </li>
 
                         <li className="flex justify-center items-center text-center">
-                            <a href="#produtos" className="hover:transition hover:text-terceiro "
+                            <a href="/lojas" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 "
                             >
                                 <p className='tracking-wide text-lg'>
                                     Lojas
@@ -104,7 +104,7 @@ export default function Nav() {
                             </a>
                         </li>
                         <li className="flex justify-center items-center text-center">
-                            <a href="#baependi" className="hover:transition hover:text-terceiro">
+                            <a href="/servicos" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 ">
                                 <p className='tracking-wide text-lg'>
                                     Serviços
                                 </p>
@@ -113,26 +113,26 @@ export default function Nav() {
                     </div>
                     <div className='flex items-center justify-center'>
                         <a href="/#inicio">
-                            <Image src={logo} alt='logo da empresa' className='w-44' />
+                            <Image src={logo} alt='logo da empresa' className='w-44 ' />
                         </a>
                     </div>
                     <div className='flex justify-around items-center gap-5 -ml-20'>
                         <li className="flex justify-center items-center text-center">
-                            <a href="#comochegar" className="hover:transition hover:text-terceiro">
+                            <a href="#comochegar" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 ">
                                 <p className='tracking-wide text-lg'>
                                     Como Chegar
                                 </p>
                             </a>
                         </li>
                         <li className="flex justify-center items-center text-center">
-                            <a href="/campanhas" className="hover:transition hover:text-terceiro">
+                            <a href="/campanhas" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 ">
                                 <p className='tracking-wide text-lg'>
                                     Campanhas
                                     </p>
                             </a>
                         </li>
                         <li className="flex justify-center items-center text-center">
-                            <a href="#sao" className="hover:transition hover:text-terceiro">
+                            <a href="#sao" className="hover:transition hover:text-segundo-tema-site hover:drop-shadow-dark1 ">
                                 <p className='tracking-wide text-lg'>
                                     São Lourenço
                                 </p>
