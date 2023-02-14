@@ -15,12 +15,14 @@ export default function Nav() {
                 <section className="MOBILE-MENU md:hidden">
                     <div
                         className="HAMBURGER-ICON w-screen justify-between p-5 flex items-center"
-                        onClick={() => setIsNavOpen((prev) => !prev
-                        )} // toggle isNavOpen state on click
+                        
                     >
-                        <Image src={logo} alt='logo da empresa' className='w-36' />
-                        <div className=' space-y-2 mt-2'>
-                            <span className="block h-0.5 w-8  bg-tema-site "></span>
+                        <Image src={logo} alt='logo da empresa' className='w-36'/>
+                        <div className='space-y-2 mt-2' 
+                        onClick={() => setIsNavOpen((prev) => !prev
+                            )} // toggle isNavOpen state on click
+                        >
+                            <span className="block h-0.5 w-8 bg-tema-site "></span>
                             <span className="block h-0.5 w-8 bg-tema-site "></span>
                             <span className="block h-0.5 w-8 bg-tema-site "></span>
                         </div>
@@ -44,31 +46,37 @@ export default function Nav() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN  bg-branco space-y-2 text-second-tema-site font-bold flex flex-col items-center w-screen h-screen">
-                            <li className="border w-72 text-center  border-second-tema-site rounded-md mt-20  text-xl">
+                        <ul className="MENU-LINK-MOBILE-OPEN  bg-zinc-300 space-y-2 text-second-tema-site font-bold flex flex-col items-center w-screen h-screen">
+                            <li className="border  w-72 text-center  border-tema-site rounded-md mt-20  text-xl">
                                 <Link href="/" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Início</Link>
                             </li>
-                            <li className="border w-72 text-center border-second-tema-site rounded-md  text-xl">
-                                <Link href="#sobre" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Sobre nós</Link>
+                            <li className="border w-72 text-center border-tema-site  rounded-md  text-xl">
+                                <Link href="#shopp" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">O Shopping</Link>
                             </li>
-                            <li className="border w-72 text-center  border-second-tema-site rounded-md  text-xl">
-                                <Link href="#produtos" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Nossos Produtos</Link>
+                            <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
+                                <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Lojas</Link>
                             </li>
-                            <li className="border w-72 text-center  border-second-tema-site rounded-md  text-xl">
-                                <Link href="#baependi" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Baependi</Link>
+                            <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
+                                <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Serviços</Link>
+                            </li>
+                            <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
+                                <Link href="/Lsojas" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Campanhas</Link>
+                            </li>
+                            <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
+                                <Link href="#sao" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">São Lourenço</Link>
                             </li>
 
-                            <li className="border w-72 text-center border-second-tema-site rounded-md text-xl">
+                            <li className="border w-72 text-center border-tema-site  rounded-md text-xl">
                                 <Link href="#form" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Como chegar</Link>
                             </li>
                             <div className='flex justify-center items-center pt-5 gap-10'>
                                 <Link href='https://www.instagram.com/marcelogamesmg/' target='blank' className='flex items-center justify-center bg-second-tema-site
-            h-10 w-10 p-1  outline-double outline-second-tema-site'>
-                                    <FontAwesomeIcon icon={faInstagram} className=' text-branco' />
+            h-10 w-10 p-1  '>
+                                    <FontAwesomeIcon icon={faInstagram}/>
                                 </Link>
                                 <Link href='https://www.facebook.com/marcelogamesmg' target='blank' className='flex items-center justify-center bg-second-tema-site
-            h-10 w-10 p-1 outline-double outline-second-tema-site'>
-                                    <FontAwesomeIcon icon={faFacebook} className=' text-branco' />
+            h-10 w-10 p-1 '>
+                                    <FontAwesomeIcon icon={faFacebook}/>
                                 </Link>
                             </div>
                         </ul>
@@ -76,9 +84,9 @@ export default function Nav() {
                 </section>
 
                 <ul className="DESKTOP-MENU hidden md:grid md:grid-cols-3 md:justify-around w-screen md:fixed bg-zinc-300 bg-opacity-80 pb-5  pt-5 md:items-center text-tema-site items-center shadow-meu">
-                    <div className='flex justify-around items-center'>
-                        <li className="w-28 flex justify-center items-center text-center">
-                            <a href="#sobre" className="hover:transition hover:text-terceiro"
+                    <div className='flex justify-around -mr-20 items-center'>
+                        <li className="flex justify-center items-center text-center">
+                            <a href="#shopp" className="hover:transition hover:text-terceiro"
                             >
                                 <p className='tracking-wide text-lg'>
                                     O Shopping
@@ -94,7 +102,7 @@ export default function Nav() {
                                 </p>
                             </a>
                         </li>
-                        <li className="w-28 flex justify-center items-center text-center">
+                        <li className="flex justify-center items-center text-center">
                             <a href="#baependi" className="hover:transition hover:text-terceiro">
                                 <p className='tracking-wide text-lg'>
                                     Serviços
@@ -107,24 +115,24 @@ export default function Nav() {
                             <Image src={logo} alt='logo da empresa' className='w-44' />
                         </a>
                     </div>
-                    <div className='flex justify-around items-center'>
-                        <li className="w-28 flex justify-center items-center text-center">
-                            <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p className='tracking-wide text-lg w-96'>
+                    <div className='flex justify-around items-center gap-5 -ml-20'>
+                        <li className="flex justify-center items-center text-center">
+                            <a href="#comochegar" className="hover:transition hover:text-terceiro">
+                                <p className='tracking-wide text-lg'>
                                     Como Chegar
                                 </p>
                             </a>
                         </li>
-                        <li className="w-28 flex justify-center items-center text-center">
-                            <a href="#baependi" className="hover:transition hover:text-terceiro">
+                        <li className="flex justify-center items-center text-center">
+                            <a href="/campanhas" className="hover:transition hover:text-terceiro">
                                 <p className='tracking-wide text-lg'>
                                     Campanhas
                                     </p>
                             </a>
                         </li>
-                        <li className="w-28 flex justify-center items-center text-center">
-                            <a href="#baependi" className="hover:transition hover:text-terceiro">
-                                <p className='tracking-wide text-lg w-96'>
+                        <li className="flex justify-center items-center text-center">
+                            <a href="#sao" className="hover:transition hover:text-terceiro">
+                                <p className='tracking-wide text-lg'>
                                     São Lourenço
                                 </p>
                             </a>

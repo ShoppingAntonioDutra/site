@@ -29,9 +29,9 @@ export default function () {
                             Nossos Produtos
                         </a>      
                     </div>
-                    <div className="flex flex-col items-center justify-center pt-10">
+                    <div className="flex items-center w-28 justify-center pt-10">
                         <Link href="/#baependi" className="text-lg font-bold mb-5">
-                            Baependi
+                            São Lourenço
                         </Link>
                         
                     </div>
