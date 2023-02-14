@@ -8,7 +8,7 @@ export default function () {
     const ano = data.getFullYear();
 
     return (
-        <div className=" text-center w-screen  flex flex-col justify-center items-center border-second-tema-site drop-shadow-verde border-t-2
+        <div className=" text-center w-screen  flex flex-col justify-center items-center
         ">
             <div className='flex flex-col md:flex-row justify-center items-center w-[320px] md:w-[1000px] md:gap-20'>
                 <Image src={logo} alt='logo empresa' className='w-44 md:w-44 mt-10' />
