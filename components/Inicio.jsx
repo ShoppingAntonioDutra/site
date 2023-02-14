@@ -22,7 +22,7 @@ export default function Inicio() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore, quas accusamus eos tempore atque maiores omnis ullam. Illo tempora iure numquam qui aliquid alias suscipit earum non impedit ratione.
                     </p>
                     <a href="/??" className='flex justify-center'>
-                    <button className=' px-5 py-2 bg-segundo-tema-site  text-tema-site md:cursor-pointer hover:bg-yellow-300 text-xl hover:transition md:mb-20'>
+                    <button className=' px-5 py-2 bg-segundo-tema-site  text-tema-site md:cursor-pointer hover:bg-yellow-300 text-xl hover:transition mb-20 '>
                         Conheça mais
                     </button>
                     </a>

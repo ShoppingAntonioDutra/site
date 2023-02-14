@@ -8,11 +8,11 @@ export default function () {
     const ano = data.getFullYear();
 
     return (
-        <div className=" text-center bg-zinc-300 w-screen brightness-110 flex flex-col justify-center items-center border-second-tema-site drop-shadow-verde border-t-2
+        <div className=" text-center w-screen  flex flex-col justify-center items-center border-second-tema-site drop-shadow-verde border-t-2
         ">
             <div className='flex flex-col md:flex-row justify-center items-center w-[320px] md:w-[1000px] md:gap-20'>
                 <Image src={logo} alt='logo empresa' className='w-44 md:w-44 mt-10' />
-                <div className="grid md:grid-cols-4 md:gap-28 w-[320px] md:w-[1000px]">
+                <div className=" flex md:gap-28 w-[320px] md:w-[1200px]">
                     <div className="flex flex-col items-center justify-center pt-10">
                         <a href="/" className="text-lg font-bold mb-5">
                             Início
@@ -22,18 +22,17 @@ export default function () {
                         <a href="/#sobre" className="text-lg font-bold mb-5">
                             Sobre nós
                         </a>
-                       
+
                     </div>
                     <div className="flex flex-col items-center justify-center pt-10">
                         <a href="/#produtos" className="text-lg font-bold mb-5">
                             Nossos Produtos
-                        </a>      
+                        </a>
                     </div>
-                    <div className="flex items-center w-28 justify-center pt-10">
-                        <Link href="/#baependi" className="text-lg font-bold mb-5">
+                    <div className="flex flex-col items-center justify-center pt-10">
+                        <a href="/#produtos" className="text-lg font-bold mb-5">
                             São Lourenço
-                        </Link>
-                        
+                        </a>
                     </div>
 
                 </div>
