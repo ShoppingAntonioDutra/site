@@ -63,11 +63,11 @@ export default function Nav() {
                                 <Link href="/campanha" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Campanhas</Link>
                             </li>
                             <div className='flex justify-center items-center pt-5 gap-10'>
-                                <Link href='https://www.instagram.com/marcelogamesmg/' target='blank' className='flex items-center justify-center bg-second-tema-sites
+                                <Link href='https://instagram.com/shoppingantoniodutraoficial/' target='blank' className='flex items-center justify-center bg-second-tema-sites
             h-10 w-10 p-1 '>
                                     <FontAwesomeIcon icon={faInstagram} className=' text-tema-site h-10' />
                                 </Link>
-                                <Link href='https://www.facebook.com/marcelogamesmg' target='blank' className='flex items-center justify-center bg-second-tema-site
+                                <Link href='https://www.facebook.com/shoppingantoniodutraoficial' target='blank' className='flex items-center justify-center bg-second-tema-site
             h-10 w-10 p-1 '>
                                     <FontAwesomeIcon icon={faFacebook} className=' text-tema-site h-10' />
                                 </Link>

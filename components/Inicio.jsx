@@ -3,7 +3,7 @@ import Carrossel from "components/Carrossel"
 
 export default function Inicio() {
     return (
-        <div id='inicio' className="grid md:grid-cols-2 h-full md:h-[650px] mt-[115px] ">
+        <div id='inicio' className="grid md:grid-cols-2 h-full md:h-[650px] mt-[105px] md:mt-[115px] ">
             <div>
                 <Carrossel />
             </div>
@@ -22,7 +22,7 @@ export default function Inicio() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore, quas accusamus eos tempore atque maiores omnis ullam. Illo tempora iure numquam qui aliquid alias suscipit earum non impedit ratione.
                     </p>
                     <a href="/??" className='flex justify-center'>
-                    <button className=' px-5 py-2 bg-segundo-tema-site  text-tema-site md:cursor-pointer hover:bg-yellow-300 text-xl hover:transition mb-20 '>
+                    <button className=' px-5 py-2 bg-segundo-tema-site  text-tema-site md:cursor-pointer hover:bg-yellow-300 text-xl hover:transition mb-20 md:tracking-widest'>
                         Conheça mais
                     </button>
                     </a>
