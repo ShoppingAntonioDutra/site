@@ -65,7 +65,7 @@ export default function Nav() {
                             </li>
                             
                             <li className="border w-72 text-center border-tema-site  rounded-md text-xl">
-                                <Link href="#form" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Como chegar</Link>
+                                <Link href="#comochegar" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Como chegar</Link>
                             </li>
                             <li className="border w-72 text-center  border-tema-site  rounded-md  text-xl">
                                 <Link href="#sao" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">São Lourenço</Link>

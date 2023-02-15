@@ -3,10 +3,10 @@ import CarrosselShopp from "components/CarrosselShopp"
 
 export default function Conteudo() {
     return (
-        <div id='shopp' className='md:grid md:grid-cols-2 md:h-[650px] bg-zinc-300'>
+        <div id='shopp' className='md:grid md:grid-cols-2 md:h-[650px] bg-zinc-300 '>
             <div className='flex flex-col'>
-                <div className='p-10 md:p-20 text-center md:text-start'>
-                    <h1 className='text-3xl md:text-6xl font-bold text-segundo-tema-site drop-shadow-dark1 pt-10'>
+                <div className='px-5 md:p-20 text-center md:text-start'>
+                    <h1 className='text-3xl md:text-6xl font-bold text-segundo-tema-site drop-shadow-dark1 pt-20'>
                         O Shopping
                     </h1>
                     
